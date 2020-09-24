@@ -1,21 +1,118 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background: linear-gradient(rgba(5, 5, 5, 0.8), black);
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 .header {
+    width: 100%;
+    background: linear-gradient(0.25turn, black, rgba(255, 255, 255, 0.2), black);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgba(255, 255, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-button {
     cursor: pointer;
 }
 
+.hiscores {
+    letter-spacing: 2px;
+}
+
 h1 {
-    background: #fff;
+    margin: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.main {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border-radius: 3px;
+}
+
+.side-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #01422C;
+    width: 100%;
+}
+
+.side-list > ul {
+    margin-left: -20px;
+}
+
+h2 {
+    width: 100%;
+    margin: 0;
+    padding: 8px 0;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #01342C;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.formItem {
+    width: 20%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formItem > label {
+    margin-bottom: 10px;
 }

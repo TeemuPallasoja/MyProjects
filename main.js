@@ -1,4 +1,4 @@
-var myElement = document.querySelector(".header")
+var myElement = document.querySelector(".color-button")
 
 changeBack = function() {
     var colorList = ["black", "blue", "green", "red"]

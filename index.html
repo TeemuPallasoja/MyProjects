@@ -4,6 +4,7 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href='styles.css' rel='stylesheet'>
     <title>Git Demo</title>
     <script defer src="main.js"></script>
@@ -11,7 +12,46 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>GIT DEMO PAGE</h1>
+            <div class="color-button">
+                <h1>Change theme</h1>
+            </div>
+            <div class="hiscores">
+                <h1>Oldschool Runescape Highscores</h1>
+            </div>
+            <div class="my-name">
+                <h1>GIT DEMO PAGE</h1>
+            </div>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <div class="side-list">
+                    <h2>Site</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Upcoming features</a></li>
+                    </ul>
+                </div>
+                <div class="side-list">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><a href="#">High Scores</a></li>
+                        <li><a href="#">Combat Calculator</a></li>
+                        <li><a href="#">Xp Table</a></li>
+                        <li><a href="#">World Map</a></li>
+                    </ul>
+                </div>
+            </div>
+            <form>
+                <div class="formItem">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Username" style="font-family: cursive">
+                </div>
+                <div class="formItem">
+                    <input type="submit" value="Submit" style="font-family: cursive">
+                </div>
+            </form>
         </div>
     </div>
 </body>
