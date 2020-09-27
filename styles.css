@@ -2,18 +2,22 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(rgba(5, 5, 5, 0.8), black);
+    background-color: green;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     height: 100vh;
+    width: 80vw;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .header {
+    margin-top: 40px;
     width: 100%;
     background: linear-gradient(0.25turn, black, rgba(255, 255, 255, 0.2), black);
     display: flex;
